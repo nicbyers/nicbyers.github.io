@@ -1,0 +1,88 @@
+html, body, .grid-container {
+    margin: 0;
+  }
+  
+  main {
+    background-color: white;
+  }
+  
+  .para1 {
+    font-family: 'Georgia';
+    font-size: 2em;
+  }
+  .para2 {
+    font-family: 'Georgia';
+    font-size: 2em;
+  }
+  .main-header {
+      font-size: 1em;
+      text-align: center;
+    }
+
+  .pic1 {
+    width: 100%;
+  }
+  .pic2 {
+    width: 100%;
+  }
+  .pic3 {
+    width: 100%;
+  }
+  .brothers {
+    grid-area: img1;
+  }
+  .main-header {
+    grid-area: header1;
+    font-family: 'Zapfino';
+    font-size:.964em;
+}
+  .cookout {
+    grid-area: img2;
+    background-color: gray;
+  }
+  .cookouttext {
+    grid-area: text1;
+    background-color: gray;
+  }
+  .stews {
+    grid-area: img3;
+  }
+  .stewstext {
+    grid-area: text2;
+  }
+
+.imagesection {
+display: grid;
+grid-template-columns: 1fr;
+    grid-template-rows:.2fr .1fr 1fr .25fr 1fr .25fr;
+    grid-template-areas:
+    "img1"
+    "header1"
+    "img2"
+    "text1"
+    "img3"
+    "text2";
+}
+
+@media only screen and (min-width: 600px ) { 
+.imagesection {
+      display: grid;
+      grid-template-rows: .5fr .1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-areas: 
+    "img1 img1 img1"
+    "header1 header1 header1"
+    "img2 text1 text1"
+    "text2 text2 img3";
+  }
+} 
+ul {
+    list-style-type: none;
+}
+
+@media only screen and (min-width: 1000px ) { 
+    .main-header {
+        display: grid;
+        grid-template-rows: .05fr;
+    }
+}
