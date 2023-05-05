@@ -1,0 +1,54 @@
+html, body, .grid-container {
+  margin: 0;
+}
+
+main {
+  background-color: white;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+
+#para1 {
+    font-size: .3em;
+    text-align: left;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .imagesection {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+  "img1 img1 img1 img1 img1 img1"
+  "text1 text1 text1 img2 img2 img2";
+}
+
+.pic1 {
+  width: 100%;
+  border-radius: 20px;
+}
+.pic2 {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.house {
+  grid-area: img1;
+}
+.renovations {
+  grid-area: img2;
+}
+.historytext {
+  grid-area: text1;
+}
+
+
+
