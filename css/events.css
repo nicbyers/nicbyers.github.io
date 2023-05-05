@@ -1,24 +1,24 @@
-html, body, .grid-container {
+html, body, .container {
     margin: 0;
-  }
-  
+  }  
   main {
     background-color: white;
   }
-  
-  .para1 {
+  p {
     font-family: 'Georgia';
-    font-size: 2em;
+    font-size: 1.7em;
+    margin: 0;
+  }
+  .para1 {
+    margin: 20px;
   }
   .para2 {
-    font-family: 'Georgia';
-    font-size: 2em;
-  }
+    margin: 20px;
+  } 
   .main-header {
       font-size: 1em;
       text-align: center;
-    }
-
+  }
   .pic1 {
     width: 100%;
   }
@@ -35,10 +35,11 @@ html, body, .grid-container {
     grid-area: header1;
     font-family: 'Zapfino';
     font-size:.964em;
-}
+  }
   .cookout {
     grid-area: img2;
     background-color: gray;
+    padding: 20px;
   }
   .cookouttext {
     grid-area: text1;
@@ -46,6 +47,7 @@ html, body, .grid-container {
   }
   .stews {
     grid-area: img3;
+    padding: 20px;
   }
   .stewstext {
     grid-area: text2;
@@ -64,7 +66,7 @@ grid-template-columns: 1fr;
     "text2";
 }
 
-@media only screen and (min-width: 600px ) { 
+@media only screen and (min-width: 850px ) { 
 .imagesection {
       display: grid;
       grid-template-rows: .5fr .1fr 1fr 1fr;
@@ -76,13 +78,4 @@ grid-template-columns: 1fr;
     "text2 text2 img3";
   }
 } 
-ul {
-    list-style-type: none;
-}
 
-@media only screen and (min-width: 1000px ) { 
-    .main-header {
-        display: grid;
-        grid-template-rows: .05fr;
-    }
-}
