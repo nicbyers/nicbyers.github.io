@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate</title>
+    <link href="donate.css" rel="stylesheet">
+</head>
+<body>
+    <!-- insert nav bar here -->
+
+    <h1>DONATE!</h1>
+    <div class="body-text"
+        <p>Get ready to make a difference and have fun while doing it! Donating is a piece of cake, and every buck counts towards a great cause. So don't wait! Give early and give often!
+
+            We love donations by check because they allow us to put 100% of your gift towards sprucing up our chapter house. Just send your check to the Sigma Chi Alpha Tau House Corporation at the address below. Sorry, no cash allowed!
+
+            Sigma Chi Alpha Tau House Corporation
+            PO Box 4422
+            Chapel Hill, NC 27515-4422
+
+            But wait, there's more! You can also donate online with ease by using any major credit card. No PayPal account? No problem! Simply use the form below to show your support and spread the love. Let's do this!
+        </p>
+    
+        <form action="/" method="post">
+
+  <fieldset>
+
+    <label for="name">Name</label>
+
+    <input type="text" id="name" name="user_name" placeholder="name" value="" required>
+
+
+    <label for="password">Graduation Year</label>
+
+    <input type="password" id="password" name="user_password" placeholder="graduation year" value="" required>
+    
+    <label for="password">Amount</label>
+
+    <input type="password" id="password" name="user_password" placeholder="total" value="" required>
+
+    </select>
+
+  </fieldset>
+
+  <button type="submit">Submit</button>
+
+</form>
+</body>
+</html>
+
+<head>
+  <title>demo: navbar with floats & slicknav</title>
+  <meta charset="utf-8">
+
+  <!-- Add link to slicknav's css here. You can use the following CDN link. -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/slicknav.min.css">
+  
+  <!-- Add link to your custom stylesheet here. This link must come *after* the link to the slicknav stylesheet above. -->
+  <link rel="stylesheet" href="custom.css">
+  
+  <!-- A Google font (optional) -->
+  <link href='https://fonts.googleapis.com/css?family=Raleway:400, 600' rel='stylesheet' type='text/css'>
+
+  <!-- You must now add general jQuery functionality with this link to the jQuery CDN. You don't need to add another document to your project for this one, since it's an absolute link leadinng to a library hosted elsewhere online. -->
+<script
+  src="https://code.jquery.com/jquery-2.2.4.js"
+  integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+  crossorigin="anonymous"></script>
+  
+ <!-- Add link to the slicknav-specific script file here. Use the following CDN link. NOTE: this link must *always* come *after* the jQuery CDN link above. -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/jquery.slicknav.min.js"></script>
+
+ <!--  Now add the following script to create a slicknav (mobile) version of your navigation menu, then attach it to an empty nav element you'll add before your navigation menu in your HTML. In this case, I've given my navigation menu the .nav_menu class; insert the class attached to your own navigation menu where you see .nav_menu in the following script. In the HTML, you'll see I've added an empty nav element just before .nav_menu and given it the ID #mobilemenu. That ID appears in the script below, too. Insert the class or ID name you've attached to your empty nav element where you see #mobilemenu in the following script. -->
+ <script type="text/javascript">
+          $(document).ready(function () {
+            $("#nav_menu").slicknav({
+                prependTo: "#mobilemenu"
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+  <div class="wrapper">
+    
+    <!-- This is the empty nav element that will serve as a placeholder for the slicknav version of .nav_menu. -->
+    <header>
+    <nav id="mobilemenu"></nav>
+    <h1> UNC SIGMA CHI</h1>
+    <!-- default nav menu -->
+    <nav id="nav_menu">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Projects</a>
+          <ul>
+            <li><a href="#">Project 1</a></li>
+            <li><a href="#">Project 2</a></li>
+            <li><a href="#">Project 3</a></li>
+          </ul>
+        </li>
+        <li><a href="#" class="lastitem">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="container">
+      <h1>a website</h1>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>
