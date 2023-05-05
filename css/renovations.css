@@ -6,32 +6,45 @@ main {
   background-color: white;
 }
 
-h1 {
-    font-size: 1.5em;
-    margin-left: 15px;
-    margin-bottom: 5px;
-    text-align: left;
-  }
+.main-header {
+    font-size: 1em;
+    text-align: center;
+  } 
 
-
-  .imagesection {
+ .imagesection {
     display: grid;
     grid-gap: 10px;
-    grid-template-rows: .5fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: .5fr .1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-template-areas: 
-  "img1 img1 img1 img1 img1 img1"
-  "text1 text1 text1 img2 img2 img2";
+    "img1"
+    "header1"
+    "text1"
+    "img2";
+    }
+@media only screen and (min-width: 600px ) { 
+    .imagesection {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-rows: .5fr .1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "img1 img1"
+        "header1 header1"
+        "text1 img2";}
+    }
+
+.house {
+        margin-right: 10%;
+        margin-left: 10%;
 }
 
 .pic1 {
   width: 100%;
-  border-radius: 20px;
 }
 .pic2 {
-  border-radius: 20px;
+  width: 100%;
 }
-
 .house {
   grid-area: img1;
 }
@@ -41,6 +54,19 @@ h1 {
 .historytext {
   grid-area: text1;
 }
+.main-header {
+    grid-area: header1;
+}
 
-
-
+h2 {
+    font-size: 1em;
+}
+h3 {
+    font-size: 1em;
+}
+h4 {
+    font-size: 1em;
+}
+h5 {
+    font-size: 1em;
+}
