@@ -7,6 +7,7 @@ body {
 
 h1{
     font-family:"Zapfino";
+    margin-top: 30px;
 /* maybe nav bar will let the top appear? */
 }
 .form-label{
@@ -96,22 +97,38 @@ select {
     border-radius: 2px;
 }
 
-button {
+/* button {
     padding: 19px 39px 18px 39px;
     color: #fff;
-    background: linear-gradient(to right, #fc67d0 10%,#ffc65b);
+    background: #fc67d0 ;
+    border: 20px #ffc65b;
     background-size: 200% auto;
     font-size: 18px;
     text-align: center;
     font-style: normal;
     border-radius: 5px;
-    border: none;
     width: 100%;
     margin-bottom: 10px;
-    transition: 1s;
+} */
+button {
+    padding: 19px 39px 18px 39px;
+    color: #000000;
+    background: #fc67d0;
+    border: 5px solid #ffc65b;
+    background-size: 200% auto;
+    font-size: 30px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+    transition: background 0.5s ease-in-out;
 }
+
 button:hover {
     background-size: 100%;
+    background: #ffc65b;
+    
 
 }
 /* 
@@ -149,18 +166,13 @@ ul {
 }
 
 
-@media only screen and (min-width: 500px){
+@media only screen and (min-width: 600px){
 
-.col-sm-6 {
-    width:max-width;
-    
-}
 .d-flex-row-justify-content-center {
     width: 100%;
 }
 .col-sm-6{
     width: auto;
-   
-}
 
+}
 }
