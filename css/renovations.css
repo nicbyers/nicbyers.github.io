@@ -1,54 +1,78 @@
 html, body, .grid-container {
-  margin: 0;
-}
-
-main {
-  background-color: white;
-}
-
-h1 {
-    font-size: 1.5em;
-    margin-left: 15px;
-    margin-bottom: 5px;
-    text-align: left;
+    margin: 0;
   }
-
-#para1 {
-    font-size: .3em;
-    text-align: left;
-    margin-left: 25px;
-    margin-bottom: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+  main {
+    background-color: white;
   }
-
-  .imagesection {
-    display: grid;
-    grid-gap: 10px;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas: 
-  "img1 img1 img1 img1 img1 img1"
-  "text1 text1 text1 img2 img2 img2";
-}
-
-.pic1 {
-  width: 100%;
-  border-radius: 20px;
-}
-.pic2 {
-  width: 100%;
-  border-radius: 20px;
-}
-
-.house {
-  grid-area: img1;
-}
-.renovations {
-  grid-area: img2;
-}
-.historytext {
-  grid-area: text1;
-}
-
-
-
+  
+  .main-header {
+      font-size: 2em;
+      text-align: center;
+      font-family: 'Zapfino';
+  } 
+  
+   .imagesection {
+      display: grid;
+      grid-gap: 10px;
+      grid-template-rows: .1fr .1fr .5fr 1fr;
+      grid-template-columns: 1fr;
+      grid-template-areas: 
+      "img1"
+      "header1"
+      "text1"
+      "img2";
+  }
+  
+  .house {
+          margin-right: 10%;
+          margin-left: 10%;
+  }
+  
+  .pic1 {
+    width: 100%;
+  }
+  .pic2 {
+    width: 100%;
+  }
+  .house {
+    grid-area: img1;
+  }
+  .renovations {
+    grid-area: img2;
+  }
+  .historytext {
+    grid-area: text1;
+    border-right: 10px;
+  }
+  .main-header {
+      grid-area: header1;
+  }
+  
+  h2 {
+      font-family: 'georgia';
+      margin: 0;
+  }
+  
+  p{
+      font-family: 'georgia';
+      margin: 4px;
+  }
+  @media only screen and (min-width: 600px ) { 
+      .imagesection {
+          display: grid;
+          grid-gap: 10px;
+          grid-template-rows: .1fr .1fr 1fr;
+          grid-template-columns: 1fr 1fr;
+          grid-template-areas: 
+          "img1 img1"
+          "header1 header1"
+          "text1 img2"; }
+      h2 {
+          font-size: 2.1vw;
+      }
+      p {
+          font-size: 2vw;
+      }
+  }
+  

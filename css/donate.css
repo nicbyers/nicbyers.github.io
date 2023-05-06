@@ -1,0 +1,178 @@
+body {
+	margin: 0 auto;
+	font-family: "georgia";
+    width: 90%;
+} 
+
+
+h1{
+    font-family:"Zapfino";
+    margin-top: 30px;
+/* maybe nav bar will let the top appear? */
+}
+.form-label{
+    font-size: small;
+}
+
+
+.nav-container li:hover {
+    background-color: rgb(222, 222, 100);
+    transition: 0.5s;
+}
+
+
+.my_form {
+    padding: 16px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.btn-primary {
+    color: #fff;
+}
+
+
+form {
+    max-width: 500px;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background: #e3e3e3;
+    border-radius: 8px;
+}
+
+
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="date"],
+  input[type="datetime"],
+  input[type="email"],
+  input[type="number"],
+  input[type="search"],
+  input[type="tel"],
+  input[type="time"],
+  input[type="url"],
+  textarea,
+  select {
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid transparent;
+    font-size: 16px;
+    height: auto;
+    margin: 0;
+    outline: 0;
+    padding: 15px;
+    width: 100%;
+    background-color: #f5f5f5;
+    color: #8a97a0;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+    margin-bottom: 30px;
+    caret-color: purple;
+    transition: all 350ms;
+  }
+  
+  input::placeholder,
+  textarea::placeholder {
+    color: hsla(9, 100%, 64%, 0.6);
+  }
+  
+  input:hover,
+  input:focus,
+  textarea:hover,
+  textarea:focus {
+    border: 2px solid hsla(9, 100%, 64%, 0.6);
+  }
+  
+  label:required {
+    color: yellow;
+  }
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin: 0 4px 8px 0;
+    background: hsla(9, 100%, 64%, 0.6);
+  }
+  
+select {
+    padding: 6px;
+    height: 32px;
+    border-radius: 2px;
+}
+
+/* button {
+    padding: 19px 39px 18px 39px;
+    color: #fff;
+    background: #fc67d0 ;
+    border: 20px #ffc65b;
+    background-size: 200% auto;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+} */
+button {
+    padding: 19px 39px 18px 39px;
+    color: #000000;
+    background: #fc67d0;
+    border: 5px solid #ffc65b;
+    background-size: 200% auto;
+    font-size: 30px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+    transition: background 0.5s ease-in-out;
+}
+
+button:hover {
+    background-size: 100%;
+    background: #ffc65b;
+    
+
+}
+/* 
+footer {
+    padding: 60px;
+    margin-top: 100px;
+    text-align: center;
+    background: #34354d;
+    color: white;
+    font-size: 30px;
+} */
+
+
+
+@media only screen and (min-width: 768px) {
+
+.container {
+    display: flex;
+}
+
+ul {
+    flex-direction: column;
+}
+.nav-container {
+    width: 30%;
+}
+
+.col-sm-6 {
+    width:auto;
+}
+
+.d-flex-row-justify-content-center {
+    width: 70%;
+}
+}
+
+
+@media only screen and (min-width: 600px){
+
+.d-flex-row-justify-content-center {
+    width: 100%;
+}
+.col-sm-6{
+    width: auto;
+
+}
+}
