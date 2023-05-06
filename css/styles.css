@@ -170,9 +170,7 @@ p {
 
 .header-items {
     display: flex;
-    grid-template-columns: 1fr, 1fr;
     align-items: center;
-
     width: 200;
     justify-content: center;
     
@@ -198,6 +196,7 @@ h1{
     text-align: center; 
     font-family: 'Zapfino';
     font-size: 5vw;
+    padding-right: 10px;
 
 }
 
