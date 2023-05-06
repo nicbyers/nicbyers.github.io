@@ -91,7 +91,7 @@ footer {
     text-align: center;
     font-size: 20px;
     display: grid; 
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     grid-template-areas:
     "footerarea1 footerarea-2 footerarea-3"
