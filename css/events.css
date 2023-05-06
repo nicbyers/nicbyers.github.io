@@ -6,7 +6,7 @@ html, body, .container {
   }
   p {
     font-family: 'Georgia';
-    font-size: 1.7em;
+    font-size: 2vw;
     margin: 0;
   }
   .para1 {
@@ -15,10 +15,6 @@ html, body, .container {
   .para2 {
     margin: 20px;
   } 
-  .main-header {
-      font-size: 1em;
-      text-align: center;
-  }
   .pic1 {
     width: 100%;
   }
@@ -44,6 +40,7 @@ html, body, .container {
   .cookouttext {
     grid-area: text1;
     background-color: gray;
+    padding-top: 30px
   }
   .stews {
     grid-area: img3;
@@ -56,7 +53,7 @@ html, body, .container {
 .imagesection {
 display: grid;
 grid-template-columns: 1fr;
-    grid-template-rows:.2fr .1fr 1fr .25fr 1fr .25fr;
+    grid-template-rows:.2fr .1fr .25fr .25fr .5fr .25fr;
     grid-template-areas:
     "img1"
     "header1"
@@ -65,11 +62,15 @@ grid-template-columns: 1fr;
     "img3"
     "text2";
 }
+.main-header {
+    font-size: 1.5vw;
+    text-align: center;
+}
 
-@media only screen and (min-width: 850px ) { 
+@media only screen and (min-width: 600px ) { 
 .imagesection {
       display: grid;
-      grid-template-rows: .5fr .1fr 1fr 1fr;
+      grid-template-rows: .5fr .1fr .8fr .8fr;
       grid-template-columns: 1fr 1fr 1fr;
       grid-template-areas: 
     "img1 img1 img1"
@@ -77,5 +78,20 @@ grid-template-columns: 1fr;
     "img2 text1 text1"
     "text2 text2 img3";
   }
-} 
+  }
 
+@media only screen and (max-width: 600px ) { 
+    p {
+        font-size: 4vw;
+    }
+    .pic2 {
+        max-width: 60%;
+        margin-left: 25%;
+
+    }
+    .pic3 {
+        max-width: 50%;
+        margin-left: 25%;
+
+    }
+}
