@@ -60,9 +60,9 @@ p {
 
 
 
-header {
+.header {
     display: flex;
-
+    width: 200;
     justify-content: center;
 
 }
