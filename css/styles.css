@@ -2,10 +2,18 @@
     display: grid;
 } */
 
+
 h1{
     text-align: center; 
     font-family: 'Zapfino';
     font-size: 5vw;
+}
+
+h2 {
+  text-align: center; 
+  font-family: 'Zapfino';
+  font-size: 40px;
+
 }
 
 .navbar {
@@ -81,7 +89,7 @@ h1{
     padding: 10px;
     margin-top: 50px;
     text-align: center;
-    font-size: 15px;
+    font-size: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
@@ -133,6 +141,7 @@ h1{
 
 p {
     font-family: Georgia;
+    font-size: 25px;
 }
 
 .header {
@@ -146,8 +155,29 @@ img {
     width: 100%;
 
 }
+
+.bros {
+  width:50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 .img-box{
     padding: 40px 0px 0px 0px;
     justify-content: flex-start;
     width: 10%;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer {
+    font-size: 16px;
+    padding: 5px;
+  }
+  .para1,
+  .para2,
+  .para3 {
+    margin: 0;
+    text-align: center;
+    padding: 5px;
+  }
 }
