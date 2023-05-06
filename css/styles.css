@@ -5,7 +5,7 @@ html, body, .container {
 .container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: .5fr 2fr .25fr;
+    grid-template-rows: .5fr 2fr .1fr;
     grid-template-areas:
       " header "
       " main "
@@ -15,8 +15,6 @@ html, body, .container {
 main {
     grid-area: main;
 }
-
-
 
 .navbar {
     display: grid;
@@ -86,7 +84,6 @@ main {
   .dropdown:hover .dropdown-content {
     display: block;
   }
-
   
   footer {
     grid-area: footer;
@@ -94,7 +91,7 @@ main {
     padding: 10px;
     margin-top: 50px;
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
@@ -145,7 +142,7 @@ main {
 
 footer p {
     font-family: Georgia;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -165,7 +162,8 @@ footer p {
 
 p {
     font-family: Georgia;
-    font-size: 25px;
+    font-size: 20px;
+    padding: 20px;
 }
 
 .header-items {
@@ -195,7 +193,7 @@ img {
 h1{
     text-align: center; 
     font-family: 'Zapfino';
-    font-size: 5vw;
+    font-size: 34px;
     padding-right: 10px;
 
 }
@@ -203,6 +201,6 @@ h1{
 h2 {
   text-align: center; 
   font-family: 'Zapfino';
-  font-size: 40px;
+  font-size: 1.8rem;
 
 }
