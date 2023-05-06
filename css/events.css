@@ -52,7 +52,7 @@ html, body, .container {
 .imagesection {
 display: grid;
 grid-template-columns: 1fr;
-    grid-template-rows:.2fr .1fr .5fr .2fr .5fr .2fr;
+    grid-template-rows:.2fr .1fr .5fr .2fr .5fr .5fr;
     grid-template-areas:
     "img1"
     "header1"
@@ -79,7 +79,7 @@ grid-template-columns: 1fr;
 @media only screen and (min-width: 600px ) { 
     .imagesection {
           display: grid;
-          grid-template-rows: .5fr .1fr .5fr .8fr;
+          grid-template-rows: .5fr .1fr .5fr .5fr;
           grid-template-columns: 1fr 1fr 1fr;
           grid-template-areas: 
         "img1 img1 img1"
@@ -90,7 +90,6 @@ grid-template-columns: 1fr;
       }    
       .pic2 {
         max-width: 300px;
-        max-height: auto;
         margin: 0;
       }
      .cookout {
@@ -101,8 +100,7 @@ grid-template-columns: 1fr;
         padding-left: 20%;
       }
       .pic3 {
-        max-width: 400px;
-        max-height: auto;
+        max-width: 300px;
         margin: 0;
       }
       .cookouttext {
