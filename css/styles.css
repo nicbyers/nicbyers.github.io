@@ -5,7 +5,7 @@
 h1{
     text-align: center; 
     font-family: 'Zapfino', sans-serif;
-    font-size: 75px;
+    font-size: 70px;
 }
 
 main {
@@ -23,7 +23,8 @@ main {
 
 .navbar a {
     float: left;
-    font-size: 16px;
+    font-size: 25px;
+    font-family:apple chancery;
     color: black;
     text-align: center;
     padding: 14px 16px;
@@ -38,13 +39,13 @@ main {
 
   /* Dropdown button */
 .dropdown .dropbtn {
-    font-size: 16px;
+    font-size: 25px;
     border: none;
     outline: none;
     color: black;
     padding: 14px 16px;
     background-color: inherit;
-    font-family: inherit; /* Important for vertical align on mobile phones */
+    font-family: apple chancery; /* Important for vertical align on mobile phones */
     margin: 0; /* Important for vertical align on mobile phones */
 }
   
@@ -129,5 +130,4 @@ img {
     justify-content: flex-start;
     width: 10%;
 }
-
 
