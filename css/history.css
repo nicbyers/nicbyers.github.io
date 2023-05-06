@@ -1,8 +1,9 @@
 body {
-	margin: 0 auto;
-	font-family: "georgia";
-  width: 90%;
-  align-items:center;
+margin: 0;
+height: 100vh;
+font-family: "georgia";
+width: 90%;
+align-items:center;
 } 
 
 h2{
@@ -37,55 +38,74 @@ h2{
 
 
 footer {
-  background-color: #6D7278;
-  grid-area: footer;
-  padding: 10px;
-  margin-top: 50px;
-  text-align: center;
-  font-size: 20px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  grid-template-areas: "footerarea1 footerarea2 footerarea3"
+    grid-area: footer;
+    background-color: #D3D3D3;
+    padding: 10px;
+    margin-top: 50px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "footerarea1 footerarea2 footerarea3"
+  }
+  
+  .footerarea1 {
+    grid-area: footerarea1;
+    align-items: center;
+  }
+  
+  .footerarea2 {
+    grid-area: footerarea2;
+    align-items: center;
+  }
+  
+  .footerarea3 {
+    grid-area: footerarea3;
+    align-items: center;
+  }
+  
+  .paragraph1,
+  .paragraph2,
+  .paragraph3 {
+    margin: 0;
+    text-align: center;
+  }
+  
+  .footer-button {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footerbutton1 button {
+    padding: 12px 20px;
+    background-color: #fc67d0;
+    color: #000000;
+    font-size: 15px;
+    border: 5px solid #ffc65b;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-family: georgia;
+  }
+  
+  .footerbutton1 button:hover {
+    background-color: #ffc65b;
+  }
+
+footer p {
+    font-family: Georgia;
+    font-size: 18px;
 }
 
-.footerarea1 {
-  grid-area: footerarea1;
-  align-items: center;
-}
-
-.footerarea2 {
-  grid-area: footerarea2;
-  align-items: center;
-}
-
-.footerarea3 {
-  grid-area: footerarea3;
-  align-items: center;
-}
-
-.para1,
-.para2,
-.para3 {
-  margin: 0;
-  text-align: center;
-}
-
-.footer-button {
-  display: flex;
-  justify-content: center;
-}
-
-.footerbutton1 button {
-  padding: 12px 20px;
-  background-color: #fc67d0;
-  color: #000000;
-  font-size: 15px;
-  border: 5px solid #ffc65b;
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
-}
-
-.footerbutton1 button:hover {
-  background-color: #ffc65b;
+@media only screen and (max-width: 768px) {
+  footer {
+    font-size: 16px;
+    padding: 5px;
+  }
+  .paragraph1,
+  .paragraph2,
+  .paragraph3 {
+    margin: 0;
+    text-align: center;
+    padding: 5px;
+  }
 }

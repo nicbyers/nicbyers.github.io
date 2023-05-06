@@ -42,6 +42,7 @@ h1 {
 	margin: 0 auto;
 	max-width: 890px;
 }
+<<<<<<< HEAD
 
 p {
 	text-align: center;
@@ -265,18 +266,137 @@ p {
   font-size: 20px;
   padding: 20px;
   color: black;
+=======
+  
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #D3D3D3;
+    width: 275px;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #D3D3D3;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  footer {
+    grid-area: footer;
+    background-color: #D3D3D3;
+    padding: 10px;
+    margin-top: 50px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "footerarea1 footerarea2 footerarea3"
+  }
+  
+  .footerarea1 {
+    grid-area: footerarea1;
+    align-items: center;
+  }
+  
+  .footerarea2 {
+    grid-area: footerarea2;
+    align-items: center;
+  }
+  
+  .footerarea3 {
+    grid-area: footerarea3;
+    align-items: center;
+  }
+  
+  .paragraph1,
+  .paragraph2,
+  .paragraph3 {
+    margin: 0;
+    text-align: center;
+  }
+  
+  .footer-button {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footerbutton1 button {
+    padding: 12px 20px;
+    background-color: #fc67d0;
+    color: #000000;
+    font-size: 15px;
+    border: 5px solid #ffc65b;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-family: georgia;
+  }
+  
+  .footerbutton1 button:hover {
+    background-color: #ffc65b;
+  }
+
+footer p {
+    font-family: Georgia;
+    font-size: 18px;
 }
 
+@media only screen and (max-width: 768px) {
+  .footer {
+    font-size: 16px;
+    padding: 5px;
+  }
+  .paragraph1,
+  .paragraph2,
+  .paragraph3 {
+    margin: 0;
+    text-align: center;
+    padding: 5px;
+  }
+}
+
+p {
+    font-family: Georgia;
+    font-size: 18px;
+>>>>>>> 81473c77ad979ce1c6dac054a59d7d583021e8cd
+}
 .header-items {
+<<<<<<< HEAD
   display: flex;
   align-items: center;
   width: 200;
   justify-content: center;
   height: 15vw
   
+=======
+    display: flex;
+    align-items: center;
+    width: 200;
+    justify-content: center;
+    height: 15vw  
+>>>>>>> 81473c77ad979ce1c6dac054a59d7d583021e8cd
 
 }
-
 img {
   width: 100%;
 
@@ -293,18 +413,31 @@ margin-right: auto;
 }
 
 h1{
+<<<<<<< HEAD
   text-align: center; 
   font-family: 'Zapfino';
   font-size: 34px;
   padding-right: 10px;
+=======
+    text-align: center; 
+    font-family: 'Zapfino';
+    font-size: 4vw;
+    padding-right: 10px;
+>>>>>>> 81473c77ad979ce1c6dac054a59d7d583021e8cd
 
 }
 
 h2 {
+<<<<<<< HEAD
 text-align: center; 
 font-family: 'Zapfino';
 font-size: 1.8rem;
 color: black;
+=======
+  text-align: center; 
+  font-family: 'Zapfino';
+  font-size: 3.8vw;
+>>>>>>> 81473c77ad979ce1c6dac054a59d7d583021e8cd
 
 }
 
