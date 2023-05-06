@@ -65,7 +65,7 @@ grid-template-columns: 1fr;
     text-align: center;
 }
 
-@media only screen and (max-width: 650px ) { 
+@media only screen and (max-width: 600px ) { 
     .pic2 {
         max-width: 50%;
         margin-left: 25%;
@@ -76,7 +76,7 @@ grid-template-columns: 1fr;
         margin-left: 25%;
     }
 }
-@media only screen and (min-width: 650px ) { 
+@media only screen and (min-width: 600px ) { 
     .imagesection {
           display: grid;
           grid-template-rows: .5fr .1fr .5fr .8fr;
@@ -89,11 +89,29 @@ grid-template-columns: 1fr;
     
       }    
       .pic2 {
-        max-width: 250px;
+        max-width: 300px;
         max-height: auto;
+        margin: 0;
+      }
+     .cookout {
+        padding-left: 17%;
+      }
+      .stews {
+        padding-right: 17%;
+        padding-left: 20%;
       }
       .pic3 {
-        max-width: 250px;
+        max-width: 400px;
         max-height: auto;
+        margin: 0;
       }
+      .cookouttext {
+        padding-right: 7%;
       }
+      .stewstext {
+        padding-left: 7%;
+      }
+      p {
+        font-size: 1.7vw;
+      } 
+      } 
