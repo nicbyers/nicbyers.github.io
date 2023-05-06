@@ -56,7 +56,7 @@ html, body, .container {
 .imagesection {
 display: grid;
 grid-template-columns: 1fr;
-    grid-template-rows:.2fr .1fr 1fr .25fr 1fr .25fr;
+    grid-template-rows:.2fr .1fr .1fr .25fr .5fr .25fr;
     grid-template-areas:
     "img1"
     "header1"
@@ -66,7 +66,7 @@ grid-template-columns: 1fr;
     "text2";
 }
 
-@media only screen and (min-width: 850px ) { 
+@media only screen and (min-width: 600px ) { 
 .imagesection {
       display: grid;
       grid-template-rows: .5fr .1fr 1fr 1fr;
