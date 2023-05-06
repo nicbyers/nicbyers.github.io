@@ -1,8 +1,24 @@
 html, body, .container {
     margin: 0;
   }  
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: .5fr 2fr .25fr;
+    grid-template-areas:
+      " header "
+      " main "
+      " footer ";
+  }
+  header {
+    grid-area: header;
+  }
   main {
     background-color: white;
+    grid-area: main; 
+  }
+  footer {
+    grid-area: footer;
   }
   p {
     font-family: 'Georgia';
@@ -34,7 +50,7 @@ html, body, .container {
   }
   .cookout {
     grid-area: img2;
-    background-color: gray;
+    background-color: #d3d3d3 ;
     padding: 20px;
   }
   .cookouttext {

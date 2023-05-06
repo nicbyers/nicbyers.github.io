@@ -50,7 +50,7 @@ main {
     padding: 15px 15px;
     background-color: inherit;
     font-family: apple chancery; 
-    margin: 0;
+    margin-left: 20%;
 }
   
 .navbar a:hover, .dropdown:hover .dropbtn {
@@ -70,7 +70,6 @@ main {
   
   /* Links inside the dropdown */
   .dropdown-content a {
-    float: none;
     color: black;
     padding: 12px 16px;
     text-decoration: none;
@@ -87,9 +86,11 @@ main {
   .dropdown:hover .dropdown-content {
     display: block;
   }
+
+  
   footer {
-    background-color: #6D7278;
     grid-area: footer;
+    background-color: #D3D3D3;
     padding: 10px;
     margin-top: 50px;
     text-align: center;
@@ -115,9 +116,9 @@ main {
     align-items: center;
   }
   
-  .para1,
-  .para2,
-  .para3 {
+  .paragraph1,
+  .paragraph2,
+  .paragraph3 {
     margin: 0;
     text-align: center;
   }
@@ -135,11 +136,17 @@ main {
     border: 5px solid #ffc65b;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
+    font-family: georgia;
   }
   
   .footerbutton1 button:hover {
     background-color: #ffc65b;
   }
+
+footer p {
+    font-family: Georgia;
+    font-size: 25px;
+}
 
 p {
     font-family: Georgia;
@@ -179,9 +186,9 @@ img {
     font-size: 16px;
     padding: 5px;
   }
-  .para1,
-  .para2,
-  .para3 {
+  .paragraph1,
+  .paragraph2,
+  .paragraph3 {
     margin: 0;
     text-align: center;
     padding: 5px;
