@@ -55,7 +55,7 @@ footer {
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
-        padding-top: 20%;
+        padding-top: 60px;
     }
 
     .body-nav ul {
@@ -104,7 +104,7 @@ footer {
     cursor: pointer;
     position: relative;
     text-align: center;
-    background:deeppink;
+    background: #FC67D0;
     color: #f1f1f1;
     border-radius: 3px;
     margin: 15px;
@@ -133,6 +133,7 @@ form {
     margin: 10px auto;
     padding: 10px 10px;
     background: #FC67D0;
+    background-image: linear-gradient(to bottom, #FC67D0,#FC67D0, #D3D3D3 );
     border-radius: 0px;
     margin-top: 2.5%;
 
@@ -172,7 +173,7 @@ h1 {
 h3 {
     display: flex;
     justify-content: center;
-    font-family: "Unbounded", 'Courier New', Courier, monospace;
+    font-family: "Zapfino";
 }
 
 input[type="text"],
@@ -196,9 +197,9 @@ select {
     padding: 15px;
     width: 100%;
     background-color: #f5f5f5;
-    color: #8a97a0;
+    color: #FC67D0;
     box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
-    margin-bottom: 30px;
+    margin-bottom: 61px;
     caret-color: purple;
     caret-size: 5px;
     transition: all 350ms;
@@ -213,7 +214,7 @@ input:hover,
 input:focus,
 textarea:hover,
 textarea:focus {
-    border: 2px solid #FC67D0;
+    border: 2px solid gold;
 }
 
 label:required {
@@ -235,7 +236,7 @@ select {
 button {
 text-decoration: none;
 padding: 1em 2.5em; 
-background-color:linear-gradient(to right, #FC67D0, #6D7278); 
+background-color:#6D7278; 
 color: #fff; 
 border-radius: 0.25em; 
 background-size: 300% ;
@@ -250,7 +251,7 @@ border: none;
 width: 100%;
 margin-bottom: 10px;
 transition: all 350ms;
-background-image: linear-gradient(to right, #FC67D0, #6D7278, #6D7278, #6D7278);
+background-image: #6D7278;
 background-position: left;
 transition: background-position 2s ease;
 display: flex;
@@ -297,3 +298,12 @@ label.light {
     border-radius: 100%;
 }
 
+img {
+    width: 400px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+p {
+    font-family: Georgia;
+}
