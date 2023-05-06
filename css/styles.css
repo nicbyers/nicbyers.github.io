@@ -132,7 +132,7 @@ main {
     padding: 12px 20px;
     background-color: #fc67d0;
     color: #000000;
-    font-size: 15px;
+    font-size: 20px;
     border: 5px solid #ffc65b;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
@@ -147,6 +147,21 @@ footer p {
     font-family: Georgia;
     font-size: 25px;
 }
+
+@media only screen and (max-width: 768px) {
+  .footer {
+    font-size: 16px;
+    padding: 5px;
+  }
+  .paragraph1,
+  .paragraph2,
+  .paragraph3 {
+    margin: 0;
+    text-align: center;
+    padding: 5px;
+  }
+}
+
 
 p {
     font-family: Georgia;
@@ -176,24 +191,9 @@ img {
   margin-right: auto;
 }
 .img-box{
-    
-
     width: 10%;
 }
 
-@media only screen and (max-width: 768px) {
-  .footer {
-    font-size: 16px;
-    padding: 5px;
-  }
-  .paragraph1,
-  .paragraph2,
-  .paragraph3 {
-    margin: 0;
-    text-align: center;
-    padding: 5px;
-  }
-}
 h1{
     text-align: center; 
     font-family: 'Zapfino';

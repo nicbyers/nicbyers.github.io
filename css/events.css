@@ -1,10 +1,10 @@
 html, body, .container {
     margin: 0;
   }  
-  .container {
+  body {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: .5fr 2fr .25fr;
+    grid-template-rows: .5fr 2fr .1fr;
     grid-template-areas:
       " header "
       " main "
@@ -16,9 +16,6 @@ html, body, .container {
   main {
     background-color: white;
     grid-area: main; 
-  }
-  footer {
-    grid-area: footer;
   }
   p {
     font-family: 'Georgia';
@@ -55,7 +52,7 @@ html, body, .container {
   }
   .cookouttext {
     grid-area: text1;
-    background-color: gray;
+    background-color:#d3d3d3;
   }
   .stews {
     grid-area: img3;
@@ -129,3 +126,6 @@ grid-template-columns: 1fr;
         font-size: 1.7vw;
       } 
       } 
+footer {
+    grid-area: footer;
+}
