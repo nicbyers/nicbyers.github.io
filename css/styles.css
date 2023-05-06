@@ -16,18 +16,7 @@ main {
     grid-area: main;
 }
 
-h1{
-    text-align: center; 
-    font-family: 'Zapfino';
-    font-size: 5vw;
-}
 
-h2 {
-  text-align: center; 
-  font-family: 'Zapfino';
-  font-size: 40px;
-
-}
 
 .navbar {
     display: grid;
@@ -157,11 +146,14 @@ p {
     font-size: 25px;
 }
 
-.header {
+.header-items {
     display: flex;
+    grid-template-columns: 1fr, 1fr;
+    align-items: center;
+
     width: 200;
     justify-content: center;
-    grid-area: header;
+    
 
 }
 
@@ -177,8 +169,8 @@ img {
   margin-right: auto;
 }
 .img-box{
-    padding: 40px 0px 0px 0px;
-    justify-content: flex-start;
+    
+
     width: 10%;
 }
 
@@ -194,4 +186,17 @@ img {
     text-align: center;
     padding: 5px;
   }
+}
+h1{
+    text-align: center; 
+    font-family: 'Zapfino';
+    font-size: 5vw;
+
+}
+
+h2 {
+  text-align: center; 
+  font-family: 'Zapfino';
+  font-size: 40px;
+
 }
