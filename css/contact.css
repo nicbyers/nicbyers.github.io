@@ -201,7 +201,6 @@ select {
     box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
     margin-bottom: 61px;
     caret-color: purple;
-    caret-size: 5px;
     transition: all 350ms;
 }
 
@@ -306,4 +305,9 @@ img {
 
 p {
     font-family: Georgia;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
 }
