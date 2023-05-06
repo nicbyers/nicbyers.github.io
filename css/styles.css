@@ -61,7 +61,7 @@ h2 {
     padding: 15px 15px;
     background-color: inherit;
     font-family: apple chancery; 
-    margin: 0;
+    margin-left: 20%;
 }
   
 .navbar a:hover, .dropdown:hover .dropbtn {
@@ -80,7 +80,6 @@ h2 {
   
   /* Links inside the dropdown */
   .dropdown-content a {
-    float: none;
     color: black;
     padding: 12px 16px;
     text-decoration: none;
@@ -98,8 +97,8 @@ h2 {
     display: block;
   }
   footer {
-    background-color: #6D7278;
     grid-area: footer;
+    background-color: #D3D3D3;
     padding: 10px;
     margin-top: 50px;
     text-align: center;
@@ -145,6 +144,7 @@ h2 {
     border: 5px solid #ffc65b;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
+    font-family: georgia;
   }
   
   .footerbutton1 button:hover {
