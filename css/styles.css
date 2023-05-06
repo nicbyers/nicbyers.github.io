@@ -91,7 +91,6 @@ main {
     padding: 10px;
     margin-top: 50px;
     text-align: center;
-    font-size: 15px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
@@ -129,7 +128,7 @@ main {
     padding: 12px 20px;
     background-color: #fc67d0;
     color: #000000;
-    font-size: 20px;
+    font-size: 15px;
     border: 5px solid #ffc65b;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
@@ -142,7 +141,7 @@ main {
 
 footer p {
     font-family: Georgia;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -159,22 +158,18 @@ footer p {
   }
 }
 
-
 p {
     font-family: Georgia;
-    font-size: 20px;
+    font-size: 18px;
 }
-
 .header-items {
     display: flex;
     align-items: center;
     width: 200;
     justify-content: center;
-    height: 15vw
-    
+    height: 15vw  
 
 }
-
 img {
     width: 100%;
 
@@ -193,7 +188,7 @@ img {
 h1{
     text-align: center; 
     font-family: 'Zapfino';
-    font-size: 34px;
+    font-size: 4vw;
     padding-right: 10px;
 
 }
@@ -201,6 +196,6 @@ h1{
 h2 {
   text-align: center; 
   font-family: 'Zapfino';
-  font-size: 1.8rem;
+  font-size: 3.8vw;
 
 }
