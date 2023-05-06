@@ -83,7 +83,6 @@ main {
   .dropdown:hover .dropdown-content {
     display: block;
   }
-  
 
 footer {
     background-color: #6D7278;
@@ -91,7 +90,26 @@ footer {
     margin-top: 50px;
     text-align: center;
     font-size: 20px;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "footerarea1 footerarea-2 footerarea-3"
 }
+
+.footerarea1 {
+    grid-area: footerarea-1
+}
+.footerarea2 {
+    grid-area: footerarea-2
+}
+.footerarea3 {
+    grid-area: footerarea-3
+}
+
+
+
+
 
 footer button {
   padding: 12px 20px;
@@ -108,10 +126,8 @@ footer button:hover {
 }
 
 p {
-    font-family: Georgia, 'Times New Roman', Times, serif
+    font-family: Georgia;
 }
-
-
 
 .header {
     display: flex;
@@ -124,10 +140,14 @@ img {
     width: 100%;
 
 }
-
 .img-box{
     padding: 40px 0px 0px 0px;
     justify-content: flex-start;
     width: 10%;
 }
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 05e50349032f2c2fe507b3e708e41d8f83a0d8f9
