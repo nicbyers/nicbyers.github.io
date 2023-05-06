@@ -15,7 +15,7 @@ body {
 	}
 
 h1 {
-	font-size: 60px;
+	font-size: 90px;
 	text-align: center;
 	color: black;
 }	
@@ -174,21 +174,23 @@ margin-left: auto;
 margin-right: auto;
 }
 .img-box{
-  width: 10%;
+  width: 25%;
 }
 
 h1{
     text-align: center; 
     font-family: 'Zapfino';
-    font-size: 4vw;
+    font-size: 10vw;
     padding-right: 10px;
+	padding-bottom: 30px;
 
 }
 
 h2 {
   text-align: center; 
   font-family: 'Zapfino';
-  font-size: 3.8vw;
+  font-size: 3.9vw;
+  padding-top: 40px;
 
 }
 
@@ -337,9 +339,11 @@ p {
 
 /* Giving a background-color to the nav container. */
 nav { 
-	margin:0;
+	margin-top: 30px;
 	padding: 0;
 	background-color: #fc67d0;
+	display: flex;
+	justify-content: center;
 }
 
 #logo {
@@ -380,18 +384,20 @@ nav ul li {
 /* Styling the links */
 nav a {
 	display:block;
-	padding:14px 20px;	
+	padding:14px 20px;
+
 	color:#FFF;
-	font-size:17px;
+	font-size:18px;
 	text-decoration:none;
+	justify-content: space-between;
 }
 
 
-nav ul li ul li:hover { background: #000000; }
+nav ul li ul li:hover { background: #D3D3D3; }
 
 /* Background color change on Hover */
 nav a:hover { 
-	background-color: #000000; 
+	background-color: #D3D3D3; 
 }
 
 /* Hide Dropdowns by Default
@@ -429,8 +435,10 @@ nav ul ul ul li {
 
 	
 /* Change ' +' in order to change the Dropdown symbol */
-li > a:after { content:  ' +'; }
-li > a:only-child:after { content: ''; }
+li > a:after { content:  ' ˇ ';}
+li > a:only-child:after { content: '  '; }
+
+
 
 
 /* Media Queries
@@ -448,6 +456,7 @@ li > a:only-child:after { content: ''; }
 
 	nav {
 		margin: 0;
+    margin-top: 20px;
 	}
 
 	/* Hide the navigation menu by default */
@@ -460,16 +469,67 @@ li > a:only-child:after { content: ''; }
 	/* Stylinf the toggle lable */
 	.toggle {
 		display: block;
-		background-color: #D3D3D3;
+		background-color: #fc67d0;
 		padding:14px 20px;	
 		color:#FFF;
+
 		font-size:17px;
 		text-decoration:none;
 		border:none;
 	}
 
 	.toggle:hover {
-		background-color: #000000;
+		background-color: #
+p {
+    font-family: Georgia;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.header-items {
+    display: flex;
+    align-items: center;
+    width: 200;
+    justify-content: center;
+    height: 15vw
+    
+
+}
+
+img {
+    width: 100%;
+
+}
+
+.bros {
+  width:50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img-box{
+    width: 10%;
+}
+
+h1{
+    text-align: center; 
+    font-family: 'Zapfino';
+    font-size: 34px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    white-space: nowrap;
+
+}
+
+h2 {
+  text-align: center; 
+  font-family: 'Zapfino';
+  font-size: 1.8rem;
+  padding-top: 40px;
+
+}
+;
 	}
 
 	/* Display Dropdown when clicked on Parent Lable */
@@ -494,7 +554,7 @@ li > a:only-child:after { content: ''; }
 
 	nav a:hover,
  	nav ul ul ul a {
-		background-color: #000000;
+		background-color: #D3D3D3;
 	}
   
 	nav ul li ul li .toggle,
@@ -545,5 +605,55 @@ li > a:only-child:after { content: ''; }
 		display:block;
 		width: 94%;
 	}
+
+}
+
+
+
+p {
+    font-family: Georgia;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.header-items {
+    display: flex;
+    align-items: center;
+    width: 200;
+    justify-content: center;
+    height: 15vw
+    
+
+}
+
+img {
+    width: 100%;
+
+}
+
+.bros {
+  width:50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img-box{
+    width: 12%;
+  padding-top: 25px;
+}
+
+h1{
+    text-align: center; 
+    font-family: 'Zapfino';
+    font-size: 30px;
+   
+
+
+}
+
+h2 {
+  text-align: center; 
+  font-family: 'Zapfino';
+  font-size: 1.5rem;
 
 }
