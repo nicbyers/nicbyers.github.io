@@ -1,8 +1,32 @@
+html, body, .container {
+    margin: 0;
+  } 
 body {
 	margin: 0 auto;
 	font-family: "georgia";
     width: 90%;
 } 
+  
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: .5fr 2fr .25fr;
+    grid-template-areas:
+      " header "
+      " main "
+      " footer ";
+  }
+
+header {
+    grid-area: header 
+}
+
+footer {
+    grid-area: footer 
+}
+main {
+    grid-area: footer 
+}
 
 
 h1{

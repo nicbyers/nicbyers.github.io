@@ -4,7 +4,9 @@ html, body, .grid-container {
   
   main {
     background-color: white;
+    grid-area: main;
   }
+  
   
   .main-header {
       font-size: 2em;
