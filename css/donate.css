@@ -1,20 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600&display=swap");
+body {
+	margin: 0 auto;
+	font-family: "georgia";
+    width: 90%;
+} 
 
 
-.header {
-    padding: 60px;
-    text-align: center;
-    background: #a1a2b1;
-    color: rgb(0, 0, 0);
-    font-size: 30px;
+h1{
+    font-family:"Zapfino";
+/* maybe nav bar will let the top appear? */
 }
-
-
-
-h4{
-    font-size: medium;
-}
-
 .form-label{
     font-size: small;
 }
