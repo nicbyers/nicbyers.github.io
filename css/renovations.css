@@ -1,12 +1,23 @@
 html, body, .grid-container {
     margin: 0;
   }
-  
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: .5fr 2fr .25fr;
+    grid-template-areas:
+      " header "
+      " main "
+      " footer ";
+  }
+
   main {
     background-color: white;
     grid-area: main;
   }
-  
+  header {
+    grid-area: header;
+  }
   
   .main-header {
       font-size: 2em;
