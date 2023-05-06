@@ -76,23 +76,13 @@ h1{
   .dropdown:hover .dropdown-content {
     display: block;
   }
-<<<<<<< HEAD
   footer {
     background-color: #6D7278;
-=======
-
-footer {
-    background-color: #D3D3D3;
->>>>>>> 9d32dc881a818580750d03e5fa581e664d5ae22d
     padding: 10px;
     margin-top: 50px;
     text-align: center;
     font-size: 20px;
-<<<<<<< HEAD
     display: grid;
-=======
-    display: grid; 
->>>>>>> 9d32dc881a818580750d03e5fa581e664d5ae22d
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     grid-template-areas: "footerarea1 footerarea2 footerarea3"
