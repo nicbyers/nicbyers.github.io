@@ -5,6 +5,10 @@
   src: url(AppleChancery.ttf);
 }
 body {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 3fr 1fr;
+  height: 100vh;
 	background: white;
 	font-size:22px;
 	line-height: 32px;
@@ -156,7 +160,9 @@ p {
     font-size: 18px;
 }
 .header-items {
-    display: flex;
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 1/3
     align-items: center;
     justify-content: center;
     height: 15vw  
@@ -532,12 +538,14 @@ h2 {
 		padding:14px 20px;	
 		color:#D3D3D3;
 		font-size:17px; 
+    font-family: 'Apple Chancery'
 	}
   
   
 	nav ul li ul li .toggle,
 	nav ul ul a {
 		background-color: #212121; 
+   
 	}
 
 	/* Hide Dropdowns by Default */
