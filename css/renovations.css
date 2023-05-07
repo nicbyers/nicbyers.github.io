@@ -24,6 +24,7 @@ html, body, .grid-container {
       font-size: 40px;
       text-align: center;
       font-family: 'Zapfino';
+      padding: 10px;
   } 
   
    .imagesection {
@@ -66,12 +67,17 @@ html, body, .grid-container {
   h2 {
       font-family: 'georgia';
       margin: 0;
+    padding: 0px;
+    font-size: 1.25rem;
   }
   
   p{
-      font-family: 'georgia';
-      margin: 4px;
+    font-family: 'georgia';
+    margin: 4px;
+    padding: 0px;
+    font-size: 1.25rem;
   }
+
   @media only screen and (min-width: 768px ) { 
       .imagesection {
           display: grid;
@@ -83,26 +89,15 @@ html, body, .grid-container {
           "header1 header1"
           "text1 img2"; }
       h2 {
-          font-size: 1.25rem;
-          padding: 0px;
+          font-size: 1rem;
+          padding: 1px;
       }
       p {
-          font-size: 1.25rem;
+          font-size: 1rem;
           padding: 0px;
       }
   }
 
-  p {
-    padding: 0px;
-    font-size: 1.25rem;
-    margin: 0px;
-  }
-
-  h2 {
-    padding: 0px;
-    font-size: 1.25rem;
-    margin: 0px;
-  }
 
 
 
