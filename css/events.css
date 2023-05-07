@@ -184,9 +184,6 @@ h1 {
 	max-width: 890px;
 }
 
-p {
-	text-align: center;
-}
 
 .toggle,
 [id^=drop] {
@@ -402,12 +399,6 @@ li > a:only-child:after { content: '  '; }
 
 	}
 
-p {
-    font-family: Georgia;
-    font-size: 20px;
-    padding: 20px;
-}
-
 .header-items {
     display: flex;
     align-items: center;
@@ -464,13 +455,6 @@ h2 {
 
 }
 
-
-
-p {
-    font-family: Georgia;
-    font-size: 20px;
-    padding: 20px;
-}
 
 .header-items {
     display: flex;
