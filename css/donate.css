@@ -28,7 +28,6 @@ header {
     grid-area: header 
 }
 
-
 footer {
     grid-area: footer 
 }
@@ -40,6 +39,7 @@ main {
 h1{
     font-family:"Zapfino";
     margin-top: 30px;
+    width: 50%
 /* maybe nav bar will let the top appear? */
 }
 .form-label{
@@ -201,7 +201,7 @@ ul {
 
 
 
-/* CSS Document */
+    /* CSS Document */
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @import url(https://fonts.googleapis.com/css?family=Bree+Serif);
@@ -247,9 +247,8 @@ h1 {
 	}
 
 #container {
-	margin: 0;
-  padding: 0;
-	width: 100%;
+	margin: 0 auto;
+	max-width: 890px;
 }
 
 p {
@@ -263,7 +262,7 @@ p {
 
 /* Giving a background-color to the nav container. */
 nav { 
-	margin-top: 40px;
+	margin-top: 30px;
 	padding: 0;
 	background-color: #fc67d0;
 	display: flex;
@@ -301,6 +300,7 @@ nav ul {
 nav ul li {
 	margin: 0px;
 	display:inline-block;
+	float: left;
 	background-color: #fc67d0;
 	}
 
@@ -402,14 +402,17 @@ li > a:only-child:after { content: '  '; }
 	}
 
 	.toggle:hover {
-		background-color: #D3D3D3
-
-
+		background-color: #
+p {
+    font-family: Georgia;
+    font-size: 20px;
+    padding: 20px;
+}
 
 .header-items {
     display: flex;
     align-items: center;
-    width: 200;
+    width: 200px;
     justify-content: center;
     height: 15vw
     
@@ -563,11 +566,11 @@ img {
 }
 
 h1{
+   display: flex;
     text-align: center; 
     font-family: 'Zapfino';
     font-size: 30px;
-    padding-top: 40px;
-    margin: 0px;
+    width: 50%;
    
 
 
@@ -579,78 +582,3 @@ h2 {
   font-size: 1.5rem;
 
 }
-
-
-footer {
-    grid-area: footer;
-    background-color: #D3D3D3;
-    padding: 10px;
-    margin-top: 50px;
-    text-align: center;
-    font-size: 15px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: "footerarea1 footerarea2 footerarea3"
-  }
-  
-  .footerarea1 {
-    grid-area: footerarea1;
-    align-items: center;
-  }
-  
-  .footerarea2 {
-    grid-area: footerarea2;
-    align-items: center;
-  }
-  
-  .footerarea3 {
-    grid-area: footerarea3;
-    align-items: center;
-  }
-  
-  .paragraph1,
-  .paragraph2,
-  .paragraph3 {
-    margin: 0;
-    text-align: center;
-  }
-  
-  .footer-button {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .footerbutton1 button {
-    padding: 12px 20px;
-    background-color: #fc67d0;
-    color: #000000;
-    font-size: 20px;
-    border: 5px solid #ffc65b;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-    font-family: georgia;
-  }
-  
-  .footerbutton1 button:hover {
-    background-color: #ffc65b;
-  }
-  
-  footer p {
-    font-family: Georgia;
-    font-size: 20px;
-  }
-  
-  @media only screen and (max-width: 768px) {
-  .footer {
-    font-size: 16px;
-    padding: 5px;
-  }
-  .paragraph1,
-  .paragraph2,
-  .paragraph3 {
-    margin: 0;
-    text-align: center;
-    padding: 5px;
-  }
-  }

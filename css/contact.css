@@ -10,10 +10,14 @@ body {
 	color: black;
 	margin: 0;
 	padding: 0;
+    width: 100%;
 	word-wrap:break-word !important;
 	font-family: 'Open Sans', sans-serif;
 	}
 
+.container{
+    width: 100%
+}
 h1 {
 	font-size: 60px;
 	text-align: center;
@@ -339,7 +343,7 @@ p {
 .header-items {
     display: flex;
     align-items: center;
-    width: 100% !important;
+    width: 100%;
     justify-content: center;
     height: 15vw
     
@@ -366,8 +370,8 @@ h1{
     text-align: center; 
     font-family: 'Zapfino';
     font-size: 30px;
-    width: 100%:
-   
+    width: 100%;
+    margin: 0;
 
 
 }
