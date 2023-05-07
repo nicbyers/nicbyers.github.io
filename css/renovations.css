@@ -12,6 +12,7 @@ html, body, .grid-container {
       " footer ";
   }
 
+  
   main {
     background-color: white;
     grid-area: main;
