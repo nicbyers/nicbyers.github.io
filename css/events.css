@@ -134,6 +134,10 @@ grid-template-columns: 1fr;
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @import url(https://fonts.googleapis.com/css?family=Bree+Serif);
+@font-face {
+  font-family: Apple Chancery;
+  src: url(AppleChancery.ttf);
+}
 
 body {
 	background:white;
@@ -229,7 +233,6 @@ nav ul {
 nav ul li {
 	margin: 0px;
 	display:inline-block;
-	float: left;
 	background-color: #fc67d0;
 	}
 
@@ -331,60 +334,9 @@ li > a:only-child:after { content: '  '; }
 	}
 
 	.toggle:hover {
-		background-color: #
-p {
-    font-family: Georgia;
-    font-size: 20px;
-    padding: 20px;
-}
+		background-color: #d3d3d3}
 
-.header-items {
-    display: flex;
-    align-items: center;
-    width: 200;
-    justify-content: center;
-    height: 15vw
-    
-
-}
-
-img {
-    width: 100%;
-
-}
-
-.bros {
-  width:50%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-.img-box{
-    width: 10%;
-}
-
-h1{
-    text-align: center; 
-    font-family: 'Zapfino';
-    font-size: 34px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
-    white-space: nowrap;
-
-}
-
-h2 {
-  text-align: center; 
-  font-family: 'Zapfino';
-  font-size: 1.8rem;
-  padding-top: 40px;
-
-}
-;
-	}
-
-	/* Display Dropdown when clicked on Parent Lable */
+/* Display Dropdown when clicked on Parent Lable */
 	[id^=drop]:checked + ul {
 		display: block;
 	}
@@ -449,7 +401,58 @@ h2 {
 
 	}
 
+p {
+    font-family: Georgia;
+    font-size: 20px;
+    padding: 20px;
 }
+
+.header-items {
+    display: flex;
+    align-items: center;
+    width: 200;
+    justify-content: center;
+    height: 15vw
+    
+
+}
+
+img {
+    width: 100%;
+
+}
+
+.bros {
+  width:50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img-box{
+    width: 10%;
+}
+
+h1{
+    text-align: center; 
+    font-family: 'Zapfino';
+    font-size: 34px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    white-space: nowrap;
+
+}
+
+h2 {
+  text-align: center; 
+  font-family: 'Zapfino';
+  font-size: 1.8rem;
+  padding-top: 40px;
+
+}
+;
+	}
+
 
 @media all and (max-width : 330px) {
 

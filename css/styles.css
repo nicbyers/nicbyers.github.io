@@ -160,7 +160,6 @@ p {
 .header-items {
     display: flex;
     align-items: center;
-    width: 200;
     justify-content: center;
     height: 15vw  
 
@@ -380,7 +379,6 @@ nav ul {
 nav ul li {
 	margin: 0px;
 	display:inline-block;
-	float: left;
 	background-color: #fc67d0;
 	}
 
@@ -475,67 +473,17 @@ li > a:only-child:after { content: '  '; }
 		background-color: #fc67d0;
 		padding:14px 20px;	
 		color:#FFF;
-
 		font-size:17px;
 		text-decoration:none;
 		border:none;
 	}
 
 	.toggle:hover {
-		background-color: #
-p {
-    font-family: Georgia;
-    font-size: 20px;
-    padding: 20px;
-}
+    background-color: #D3D3D3;
+	
+  }
 
-.header-items {
-    display: flex;
-    align-items: center;
-    width: 200;
-    justify-content: center;
-    height: 15vw
-    
-
-}
-
-img {
-    width: 100%;
-
-}
-
-.bros {
-  width:50%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-.img-box{
-    width: 10%;
-}
-
-h1{
-    text-align: center; 
-    font-family: 'Zapfino';
-    font-size: 34px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
-    white-space: nowrap;
-
-}
-
-h2 {
-  text-align: center; 
-  font-family: 'Zapfino';
-  font-size: 1.8rem;
-  padding-top: 40px;
-
-}
-;
-	}
-
-	/* Display Dropdown when clicked on Parent Lable */
+/* Display Dropdown when clicked on Parent Lable */
 	[id^=drop]:checked + ul {
 		display: block;
 	}
@@ -614,7 +562,7 @@ h2 {
 
 
 p {
-    font-family: Georgia;
+    font-family: 'Georgia';
     font-size: 20px;
     padding: 20px;
 }
@@ -660,3 +608,52 @@ h2 {
   font-size: 1.5rem;
 
 }
+
+.header-items {
+    display: flex;
+    align-items: center;
+    width: 200;
+    justify-content: center;
+    height: 15vw
+    
+
+}
+  
+
+img {
+    width: 100%;
+
+}
+
+.bros {
+  width:50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img-box{
+    width: 10%;
+}
+
+h1{
+    text-align: center; 
+    font-family: 'Zapfino';
+    font-size: 34px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    white-space: nowrap;
+
+}
+
+h2 {
+  text-align: center; 
+  font-family: 'Zapfino';
+  font-size: 1.8rem;
+  padding-top: 40px;
+
+}
+;
+	
+
+	
