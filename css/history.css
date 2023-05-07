@@ -236,6 +236,8 @@ li > a:only-child:after { content: '  '; }
 	.toggle + a,
 	.menu {
 		display: none;
+		font-family: 'Apple Chancery';
+		font-size: 22px;
 	}
 
 	/* Stylinf the toggle lable */
@@ -243,8 +245,7 @@ li > a:only-child:after { content: '  '; }
 		display: block;
 		background-color: #fc67d0;
 		padding:14px 20px;	
-		color:#FFF;
-
+		color:black;
 		font-size:17px;
 		text-decoration:none;
 		border:none;
