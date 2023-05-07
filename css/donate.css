@@ -1,16 +1,16 @@
 html, body, .grid-container {
-  margin: 0;
-}
-body {
-  display: grid;
-  height: 100vh;
-  grid-template-columns: 1fr;
-  grid-template-rows: .5fr .1fr .00001fr;
-  grid-template-areas:
-    " header "
-    " main "
-    " footer ";
-}
+    margin: 0;
+  }
+  body {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: .5fr .1fr .00001fr;
+    grid-template-areas:
+      " header "
+      " main "
+      " footer ";
+  }
 
 .container {
     display: grid;
@@ -198,7 +198,7 @@ ul {
 
 
 /* CSS Document */
-/* 
+
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @import url(https://fonts.googleapis.com/css?family=Bree+Serif);
 
@@ -650,4 +650,4 @@ footer {
     text-align: center;
     padding: 5px;
   }
-  } */
+  }
