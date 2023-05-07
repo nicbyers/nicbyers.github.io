@@ -21,11 +21,13 @@ html, body, .grid-container {
       " header "
       " main "
       " footer ";
+      
   }
 
 header {
     grid-area: header 
 }
+
 
 footer {
     grid-area: footer 
