@@ -85,14 +85,21 @@ html, body, .grid-container {
           "text1 img2"; }
       h2 {
           font-size: 2.1vw;
+          padding: 0px;
       }
       p {
           font-size: 2vw;
+          padding: 0px;
       }
   }
 
+  p {
+    padding: 0px;
+  }
 
-
+  h2 {
+    padding: 0px;
+  }
 
 
 
@@ -152,10 +159,6 @@ h1 {
 #container {
 	margin: 0 auto;
 	max-width: 890px;
-}
-
-p {
-	text-align: center;
 }
 
 .toggle,
@@ -373,15 +376,6 @@ li > a:only-child:after { content: '  '; }
 
 	}
 
-
-
-
-p {
-    font-family: Georgia;
-    font-size: 20px;
-    padding: 20px;
-}
-
 .header-items {
     display: flex;
     align-items: center;
@@ -418,13 +412,6 @@ h1{
 
 }
 
-h2 {
-  text-align: center; 
-  font-family: 'Zapfino';
-  font-size: 1.8rem;
-  padding-top: 40px;
-
-}
 
 	}
 
@@ -438,12 +425,6 @@ h2 {
 
 }
 
-
-p {
-    font-family: Georgia;
-    font-size: 20px;
-    padding: 20px;
-}
 
 .header-items {
     display: flex;
@@ -479,21 +460,6 @@ h1{
 
 
 }
-
-h2 {
-  text-align: center; 
-  font-family: 'Zapfino';
-  font-size: 1.5rem;
-
-}
-
-
-
-
-
-
-
-
 
 
   footer {
