@@ -303,7 +303,6 @@ nav ul {
 nav ul li {
 	margin: 0px;
 	display:inline-block;
-	float: left;
 	background-color: #fc67d0;
 	}
 
@@ -405,12 +404,9 @@ li > a:only-child:after { content: '  '; }
 	}
 
 	.toggle:hover {
-		background-color: #
-p {
-    font-family: Georgia;
-    font-size: 20px;
-    padding: 20px;
-}
+		background-color: #D3D3D3
+
+
 
 .header-items {
     display: flex;
