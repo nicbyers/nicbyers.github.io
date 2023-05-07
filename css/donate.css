@@ -3,6 +3,7 @@ html, body, .grid-container {
   }
   body {
     display: grid;
+    width: 100vw;
     height: 100vh;
     grid-template-columns: 1fr;
     grid-template-rows: .5fr .1fr .00001fr;
@@ -164,6 +165,7 @@ footer {
 
 .container {
     display: flex;
+    width: 100%
 }
 
 ul {
@@ -243,8 +245,9 @@ h1 {
 	}
 
 #container {
-	margin: 0 auto;
-	max-width: 890px;
+	margin: 0;
+  padding: 0;
+	width: 100%;
 }
 
 p {
@@ -258,7 +261,7 @@ p {
 
 /* Giving a background-color to the nav container. */
 nav { 
-	margin-top: 30px;
+	margin-top: 40px;
 	padding: 0;
 	background-color: #fc67d0;
 	display: flex;
@@ -561,6 +564,8 @@ h1{
     text-align: center; 
     font-family: 'Zapfino';
     font-size: 30px;
+    padding-top: 40px;
+    margin: 0px;
    
 
 
