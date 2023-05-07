@@ -240,10 +240,13 @@ a {
 
 h1 {
 	margin-top: 100px;
-	text-align:center;
-	font-size:60px;
-	line-height: 70px;
-	font-family: 'Bree Serif', 'serif';
+	
+    text-align: center; 
+    font-family: 'Zapfino';
+    font-size: 30px;
+    width: 35%;
+   
+
 	}
 
 #container {
@@ -565,20 +568,88 @@ img {
   padding-top: 25px;
 }
 
-h1{
-   display: flex;
-    text-align: center; 
-    font-family: 'Zapfino';
-    font-size: 30px;
-    width: 50%;
-   
 
 
-}
+
 
 h2 {
   text-align: center; 
   font-family: 'Zapfino';
   font-size: 1.5rem;
 
+}
+
+
+footer {
+    grid-area: footer;
+    background-color: #D3D3D3;
+    padding: 10px;
+    margin-top: 50px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "footerarea1 footerarea2 footerarea3"
+  }
+  
+  .footerarea1 {
+    grid-area: footerarea1;
+    align-items: center;
+  }
+  
+  .footerarea2 {
+    grid-area: footerarea2;
+    align-items: center;
+  }
+  
+  .footerarea3 {
+    grid-area: footerarea3;
+    align-items: center;
+    padding-top: 15px;
+  }
+  
+  .paragraph1,
+  .paragraph2,
+  .paragraph3 {
+    margin: 0;
+    text-align: center;
+  }
+  
+  .footer-button {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footerbutton1 button {
+    padding: 12px 20px;
+    background-color: #fc67d0;
+    color: #000000;
+    font-size: 15px;
+    border: 5px solid #ffc65b;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-family: georgia;
+  }
+  
+  .footerbutton1 button:hover {
+    background-color: #ffc65b;
+  }
+
+footer p {
+    font-family: Georgia;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 768px) {
+  footer {
+    font-size: 16px;
+    padding: 5px;
+  }
+  .paragraph1,
+  .paragraph2,
+  .paragraph3 {
+    margin: 0;
+    text-align: center;
+    padding: 5px;
+  }
 }
