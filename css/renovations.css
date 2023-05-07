@@ -72,7 +72,7 @@ html, body, .grid-container {
       font-family: 'georgia';
       margin: 4px;
   }
-  @media only screen and (min-width: 600px ) { 
+  @media only screen and (min-width: 768px ) { 
       .imagesection {
           display: grid;
           grid-gap: 10px;
@@ -95,11 +95,13 @@ html, body, .grid-container {
   p {
     padding: 0px;
     font-size: 1.25rem;
+    margin: 0px;
   }
 
   h2 {
     padding: 0px;
     font-size: 1.25rem;
+    margin: 0px;
   }
 
 
