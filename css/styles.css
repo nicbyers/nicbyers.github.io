@@ -1,7 +1,5 @@
 /* CSS Document */
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
-@import url(https://fonts.googleapis.com/css?family=Bree+Serif);
 @font-face {
   font-family: Apple Chancery;
   src: url(AppleChancery.ttf);
@@ -72,7 +70,7 @@ h1 {
   
   /* Add a grey background color to dropdown links on hover */
   .dropdown-content a:hover {
-    background-color: #ddd;
+    background-color: #d3d3d3;
   }
   
   /* Show the dropdown menu on hover */
@@ -176,7 +174,9 @@ margin-left: auto;
 margin-right: auto;
 }
 .img-box{
-  width: 25%;
+  width: 12%;
+  padding-top: 25px;
+  height: auto;
 }
 
 h1{
@@ -358,126 +358,6 @@ li > a:only-child:after { content: '  '; }
 
 
 
-
-/* Media Queries
---------------------------------------------- */
-
-@media all and (max-width : 768px) {
-
-	#logo {
-		display: block;
-		padding: 0;
-		width: 100%;
-		text-align: center;
-		float: none;
-	}
-
-	nav {
-		margin: 0;
-    margin-top: 20px;
-	}
-
-	/* Hide the navigation menu by default */
-	/* Also hide the  */
-	.toggle + a,
-	.menu {
-		display: none;
-	}
-
-	/* Stylinf the toggle lable */
-	.toggle {
-		display: block;
-		background-color: #fc67d0;
-		padding:14px 20px;	
-		color:#FFF;
-		font-size:17px;
-		text-decoration:none;
-		border:none;
-	}
-
-	.toggle:hover {
-    background-color: #D3D3D3;
-	
-  }
-
-/* Display Dropdown when clicked on Parent Lable */
-	[id^=drop]:checked + ul {
-		display: block;
-	}
-
-	/* Change menu item's width to 100% */
-	nav ul li {
-		display: block;
-		width: 100%;
-		}
-
-	nav ul ul .toggle,
-	nav ul ul a {
-		padding: 0 40px;
-	}
-
-	nav ul ul ul a {
-		padding: 0 80px;
-	}
-
-	nav a:hover,
- 	nav ul ul ul a {
-		background-color: #D3D3D3;
-	}
-  
-	nav ul li ul li .toggle,
-	nav ul ul a,
-  nav ul ul ul a{
-		padding:14px 20px;	
-		color:#FFF;
-		font-size:17px; 
-	}
-  
-  
-	nav ul li ul li .toggle,
-	nav ul ul a {
-		background-color: #212121; 
-	}
-
-	/* Hide Dropdowns by Default */
-	nav ul ul {
-		float: none;
-		position:static;
-		color: #D3D3D3;
-		/* has to be the same number as the "line-height" of "nav a" */
-	}
-		
-	/* Hide menus on hover */
-	nav ul ul li:hover > ul,
-	nav ul li:hover > ul {
-		display: none;
-	}
-		
-	/* Fisrt Tier Dropdown */
-	nav ul ul li {
-		display: block;
-		width: 100%;
-	}
-
-	nav ul ul ul li {
-		position: static;
-		/* has to be the same number as the "width" of "nav ul ul li" */ 
-
-	}
-
-}
-
-@media all and (max-width : 330px) {
-
-	nav ul li {
-		display:block;
-		width: 94%;
-	}
-
-}
-
-
-
 p {
     font-family: 'Georgia';
     font-size: 20px;
@@ -514,8 +394,6 @@ h1{
     text-align: center; 
     font-family: 'Zapfino';
     font-size: 30px;
-   
-
 
 }
 
@@ -570,7 +448,212 @@ h2 {
   padding-top: 40px;
 
 }
+
+
+
+/* Media Queries
+--------------------------------------------- */
+
+@media all and (max-width : 768px) {
+
+	#logo {
+		display: block;
+		padding: 0;
+		width: 100%;
+		text-align: center;
+		float: none;
+	}
+
+	nav {
+		margin: 0;
+    margin-top: 20px;
+	}
+
+	/* Hide the navigation menu by default */
+	/* Also hide the  */
+	.toggle + a,
+	.menu {
+		display: none;
+
+      font-family: 'Apple Chancery';
+      font-size: 22px;
+    .toggle + a,
+    .menu {
+      display: none;
+      font-family: 'Apple Chancery';
+      font-size: 22px;
+    }
+  
+	}
+
+	/* Stylinf the toggle lable */
+	.toggle {
+		display: block;
+		background-color: #fc67d0;
+		padding:14px 20px;	
+		color:black;
+
+		font-size:17px;
+		text-decoration:none;
+		border:none;
+	}
+
+	.toggle:hover {
+		background-color: #D3D3D3}
+
+
+	/* Display Dropdown when clicked on Parent Lable */
+	[id^=drop]:checked + ul {
+		display: block;
+	}
+
+	/* Change menu item's width to 100% */
+	nav ul li {
+		display: block;
+		width: 100%;
+		}
+
+	nav ul ul .toggle,
+	nav ul ul a {
+		padding: 0 40px;
+	}
+
+	nav ul ul ul a {
+		padding: 0 80px;
+	}
+
+	nav a:hover,
+ 	nav ul ul ul a {
+		background-color: #D3D3D3;
+	}
+  
+	nav ul li ul li .toggle,
+	nav ul ul a,
+  nav ul ul ul a{
+		padding:14px 20px;	
+		color:#D3D3D3;
+		font-size:17px; 
+	}
+  
+  
+	nav ul li ul li .toggle,
+	nav ul ul a {
+		background-color: #212121; 
+	}
+
+	/* Hide Dropdowns by Default */
+	nav ul ul {
+		float: none;
+		position:static;
+		color: #D3D3D3;
+		/* has to be the same number as the "line-height" of "nav a" */
+	}
+		
+	/* Hide menus on hover */
+	nav ul ul li:hover > ul,
+	nav ul li:hover > ul {
+		display: none;
+	}
+		
+	/* Fisrt Tier Dropdown */
+	nav ul ul li {
+		display: block;
+		width: 100%;
+	}
+
+	nav ul ul ul li {
+		position: static;
+		/* has to be the same number as the "width" of "nav ul ul li" */ 
+
+	}
+
+
+
+p {
+    font-family: Georgia;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.header-items {
+    display: flex;
+    margin: 0;
+    align-items: center;
+    width: 200;
+    justify-content: center;
+    height: 15vw
+    
+
+}
+
+img {
+    width: 100%;
+
+}
+
+.bros {
+  width:50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img-box{
+    width: 10%;
+}
+
+h1{
+    text-align: center; 
+    font-family: 'Zapfino';
+    font-size: 34px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    white-space: nowrap;
+
+}
+
+h2 {
+  text-align: center; 
+  font-family: 'Zapfino';
+  font-size: 1.8rem;
+  padding-top: 40px;
+
+}
 ;
-	
+	}
+
+@media all and (max-width : 480px) {
+
+	nav ul li {
+		display:block;
+		width: 94%;
+	}
+
+
+.img-box{
+    width: 10%;
+    margin:0;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+}
+}
+
+
+
 
 	
